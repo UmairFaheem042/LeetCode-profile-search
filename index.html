@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        
+        <link rel="shortcut icon" href="iconGrad.png" type="image/x-icon">
+        <title>CodeProfile | LeetCode Profile Search</title>
+        
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="input__container">
+      <input
+        type="text"
+        class="search__input"
+        placeholder="Search by username"
+      />
+      <button class="search__btn"><i class="ri-search-line"></i></button>
+    </div>
+    <div class="loader"></div>
+    <div class="profile__container-outer">
+      <div class="profile__container-inner">
+        <h1 class="username">UmairFaheem42</h1>
+        <div class="global__stats">
+          <p class="rank">Ranking<span class="value">NA</span></p>
+          <p class="acceptance">Acceptance<span class="value">NA</span></p>
+        </div>
+        <div class="questions__stats">
+          <div>
+            <div class="value" id="totalSolved">0000</div>
+            <div class="parameter">solved</div>
+          </div>
+          <div>
+            <div class="value" id="easyAttempt">0000</div>
+            <div class="parameter">easy</div>
+          </div>
+          <div>
+            <div class="value" id="mediumAttempt">0000</div>
+            <div class="parameter">medium</div>
+          </div>
+          <div>
+            <div class="value" id="hardAttempt">0000</div>
+            <div class="parameter">hard</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="error__msg">Error! No user exist with that username</div>
+  </body>
+</html>
