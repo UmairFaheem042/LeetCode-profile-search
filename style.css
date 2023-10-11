@@ -9,6 +9,7 @@
 
 body {
   background: linear-gradient(112deg, #6d7cff 0%, #00d1ff 100%);
+  background-repeat: no-repeat;
   height: 100dvh;
   display: flex;
   flex-direction: column;
